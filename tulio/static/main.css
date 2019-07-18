@@ -1,0 +1,118 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.title_style{
+  color: #B71C1C;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+.bg-footer{
+  background-color: #78909C;
+}
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+.product-style{
+  width: 200px;
+  height:200px;
+  padding-bottom: 10;
+}
+.product-space{
+  padding-bottom: 10px;
+}
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+.navsize{
+  height: 90px;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 20px 40px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top:30px
+}
+
+.article-title {
+  color: #444444;
+}
+.bottom-tag{
+  margin-left: 40px;
+}
+.home-tag{
+  margin-left: 60px;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+.about-tag{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+.footer-links-brand{
+  color: #000000;
+}
+.center-content{
+  width: 600px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}

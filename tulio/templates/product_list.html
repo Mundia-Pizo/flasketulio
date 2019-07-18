@@ -1,0 +1,17 @@
+{%extends "layout.html"%}
+
+{% block content %}
+	{%for post in posts.items%}
+	<article class="media content-section center-content">
+		<img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/'+ post.author.image_file) }}">
+	   <div class="media-body">
+	   	  <div class=".article-metadata">
+	   	  	<a class="mr-2" href="{{url_for('products')}}">{{products.title}}</a>
+	   	  	<small class="text-muted">{{post.date_posted.strftime('%Y-%m-%d')}}</small>
+	       <h1><a class="article-title" href="{{ url_for('products', product_id=product.id) }}">{{product.title}}</a></h1>
+	       <p>{{product.product_description}}</p>
+	      </div>
+	    </div>
+	</article>
+	{%endfor%}
+{%endblock content%}
